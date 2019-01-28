@@ -16,10 +16,7 @@ plugin.tx_find.settings.facets.20 {
    type = Heatmap
    fetchMaximum = 1000
    field = geoLocationPoint 
-   tileProvider {
-      provider=stamen
-      type=toner-lite
-      tile={z}/{x}/{y}{r}
+   tileProvider = provider=stamen&type=toner-lite&tile={z}/{x}/{y}{r}
    attribution = Map tiles by <a title="Design by Stamen Design" href="https://stamen.com/maps/">Stamen Design</a>, CC BY 3.0
 ```
 This snippets tells the extension to look for `geolocationPoint` of solr and and to use some properties.
@@ -45,7 +42,7 @@ This partial generated a snippet like this:
   <div class="heatmapContainer"
         data-facetdata="{&quot;53.4635384,9.9674,17&quot;:26}"
         data-fetchmaximum="1000" 
-        data-tileprovider="?eID=tile&amp;provider=stamen">
+        data-tileprovider="provider=stamen&type=toner-lite&tile={z}/{x}/{y}{r}">
   </div>
 </div>
 ```
