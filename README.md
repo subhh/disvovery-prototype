@@ -25,7 +25,7 @@ Content of ``/discovery/Resources/Private/Partials/Facets/Facet/Heatmap.html`:
 
 ```
 <div class="facetMap-container">
-  <div id="schaufenster_heatmap" class="heatmapContainer"
+  <div class="heatmapContainer"
         data-facetdata="{f:format.json(value:facetData.values)}"
         data-fetchmaximum="{facetInfo.fetchMaximum}" 
         data-tileprovider="{facetInfo.tileProvider}"
@@ -39,7 +39,7 @@ This partial generated a snippet like this:
 
 ```
 <div class="facetMap-container">
-  <div id="schaufenster_heatmap" class="heatmapContainer"
+  <div class="heatmapContainer"
         data-facetdata="{&quot;53.4635384,9.9674,17&quot;:26}"
         data-fetchmaximum="1000" 
         data-tileprovider="?eID=tile&amp;provider=stamen">
