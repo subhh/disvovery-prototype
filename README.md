@@ -16,7 +16,10 @@ plugin.tx_find.settings.facets.20 {
    type = Heatmap
    fetchMaximum = 1000
    field = geoLocationPoint 
-   tileProvider = ?eID=tile&provider=stamen&type=toner-lite&tile={z}/{x}/{y}{r}
+   tileProvider {
+      provider=stamen
+      type=toner-lite
+      tile={z}/{x}/{y}{r}
    attribution = Map tiles by <a title="Design by Stamen Design" href="https://stamen.com/maps/">Stamen Design</a>, CC BY 3.0
 ```
 This snippets tells the extension to look for `geolocationPoint` of solr and and to use some properties.
