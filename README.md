@@ -18,6 +18,7 @@ In original extension a couple of facet rendering pattern are available. For ext
   </div>
 </div>
 ```
+`facetData` comes from controler (solr response data) and `facetInfo`comes from TS.
 
 This partial generated a snippet like this:
 
