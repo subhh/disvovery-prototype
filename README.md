@@ -4,6 +4,18 @@
 
 All modifications of extension are realised in a new extension named `discovery`. 
 
+## Prerequisites
+
+```
+plugin.tx_find {
+   view {
+        partialRootPaths {
+            20 = typo3conf/ext/discovery/Resources/Private/Partials/
+        }
+  }
+}
+```
+
 ### Facets
 
 In original extension a couple of facet rendering pattern are available. For extending and creating new ones new partials will need. In this partials all parameters are realised with HTML5 data HTML entities. This pattern avoids Javascript inside the HTML code. The partials build a "bridge" between Typoscript and Javascript namespace.
