@@ -6,6 +6,7 @@ All modifications of extension are realised in a new extension named `discovery`
 
 ## Prerequisites
 
+This snippet below extends the search path. Our new path is the first in the search order:
 ```
 plugin.tx_find {
    view {
