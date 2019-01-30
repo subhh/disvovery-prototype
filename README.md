@@ -47,7 +47,7 @@ This partial generated a snippet like this:
 </div>
 ```
 
-## ThreeStateSwitch
+#### ThreeStateSwitch
 
 Content of ``/discovery/Resources/Private/Partials/Facets/Facet/ThreeStateswitch.html`:
 ```
