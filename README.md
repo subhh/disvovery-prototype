@@ -46,3 +46,37 @@ This partial generated a snippet like this:
   </div>
 </div>
 ```
+
+##ThreeStateSwitch
+
+Content of ``/discovery/Resources/Private/Partials/Facets/Facet/ThreeStateswitch.html`:
+```
+<f:alias map="{valueOpen:'Open Access',labelOpen:'Open Access',labelAll:'Alle Dokumente',labelClose:'Restricted
+Access',valueClose:'zugriffsbeschränkt',valueAll:'Open Access,zugriffsbeschränkt'}">
+
+<f:for each="{config.activeFacets.OpenAccess}" as="item">
+    <f:variable name="filter" value="{item.term}" />
+</f:for>
+
+<div class="tx_discovery_3stateswitch">
+  <link href="typo3conf/ext/discovery/Resources/Public/CSS/toggle-switch.css" rel="stylesheet" />
+  <style>.facets .facet-id-OpenAccess h1 {display:none}</style> 
+  <div class="switch-toggle switch-3 switch-candy">
+
+    <input id="on" name="state-d" type="radio"  <f:if
+    condition="{filter} == {valueOpen}">checked="checked"</f:if>> 
+    <label for="on">{labelOpen}</label>
+
+    <input id="na" name="state-d" type="radio"  <f:if
+    condition="{filter} =={valueAll}">checked="checked"</f:if>>
+    <label for="na">{labelAll}</label>
+
+    <input id="off" name="state-d" type="radio" <f:if
+    condition="{filter} == 'zugriffsbeschränkt'">checked="checked"</f:if>>
+    <label for="off">{labelClose}</label><a></a>
+
+  </div>
+  </div>
+</f:alias>
+```
+
