@@ -2,11 +2,18 @@
 
 ## Basic architecture
 
-These extensions offer new facets for [typo3-find extension](https://github.com/subugoe/typo3-find). 
+These extensions offer new facets views for [typo3-find extension](https://github.com/subugoe/typo3-find). 
+
+## Example implementation
+
+On [HamburgOpenScience](https://openscience.hamburg.de/) you can see an example implementation.
 
 ## Common usage
 ### Installing extension
 You can install via extension manager or with composer.
+
+![](https://i.imgur.com/KnVPPZX.png)
+
 ### Adding core static templates
 For all facet view you have to add this static template:
 
