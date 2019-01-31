@@ -10,9 +10,7 @@ You can install via extension manager or with composer.
 ### Adding static templates
 In web backend you have to add the static template.
 
-## Facets
-
-In original extension a couple of facet rendering pattern are available. For extending and creating new ones new partials will need. In this partials all parameters are realised with HTML5 data HTML entities. This pattern avoids Javascript inside the HTML code. The partials build a "bridge" between Typoscript and Javascript namespace.
+## List of facets
 
 ### hos-t3find-facet-heatmap
 
