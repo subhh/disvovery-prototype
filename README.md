@@ -24,6 +24,7 @@ In original extension a couple of facet rendering pattern are available. For ext
 
 ### Heatmap
 
+![](https://i.imgur.com/RH0oepr.png)
 Example for typoscript:
 ```
 plugin.tx_find.settings.facets.20 {
