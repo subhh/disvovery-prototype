@@ -12,12 +12,8 @@ On [HamburgOpenScience](https://openscience.hamburg.de/) you can see an example 
 ### Installing extension
 You can install via extension manager or with composer.
 
-![](https://i.imgur.com/KnVPPZX.png)
+![](https://i.imgur.com/O31C4M7.png)
 
-### Adding core static templates
-For all facet view you have to add this static template:
-
-![](https://i.imgur.com/ShSRgs2.png)
 
 ## List of facets
 
@@ -30,7 +26,7 @@ Example rendering:
 #### Typoscript:
 
 First add static template from extension:
-![](https://i.imgur.com/70D5dCS.png)
+![](https://i.imgur.com/vKF2wcs.png)
 
 Now you can add new type inside `plugin.tx_find.settings` section of typoscript: 
 ```
