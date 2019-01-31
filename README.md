@@ -5,9 +5,10 @@
 These extensions offer new facets for [typo3-find extension](https://github.com/subugoe/typo3-find). 
 
 ## Common usage
-
-```
-```
+### Installing extension
+You can install via extension manager or with composer.
+### Adding static templates
+In web backend you have to add the static template.
 
 ## Facets
 
