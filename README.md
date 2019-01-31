@@ -14,17 +14,20 @@ For all facet view you have to add this static template:
 
 ## List of facets
 
-### Heatmap
+### Heatmap vie
+
+Example rendering:
 
 ![](https://i.imgur.com/RH0oepr.png)
 
 #### Typoscript:
 
 First add static template from extension:
-![](https://i.imgur.com/elosoQQ.png)
+![](https://i.imgur.com/70D5dCS.png)
 
+Now you can add new type inside `plugin.tx_find.settings` section of typoscript: 
 ```
-plugin.tx_find.settings.facets.20 {
+plugin.tx_find.settings.facets.heatmap {
    type = Heatmap
    fetchMaximum = 1000
    field = geoLocationPoint 
