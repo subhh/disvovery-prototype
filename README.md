@@ -17,6 +17,10 @@ In web backend you have to add the static template.
 ![](https://i.imgur.com/RH0oepr.png)
 
 #### Typoscript:
+
+First add static template from extension:
+![](https://i.imgur.com/elosoQQ.png)
+
 ```
 plugin.tx_find.settings.facets.20 {
    type = Heatmap
