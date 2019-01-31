@@ -1,4 +1,4 @@
-# Adding of neew facet type to typo3-find extension of subugö
+# New facet types for typo3-find extension of subugoe
 
 ## Basic architecture
 
@@ -67,6 +67,10 @@ plugin.tx_find.settings.facets.10 {
 ```
 ### hos-t3find-facet-pie
 
+
+
 ### hos-t3find-facet-wordcloud
+
+![](https://i.imgur.com/g2FVhXE.png)
 
 ### hos-t3find-facet-ddc
