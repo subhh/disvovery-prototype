@@ -2,7 +2,8 @@
 
 ## Basic architecture
 
-All modifications of extension are realised in a new extension named `discovery`. 
+This extension offers new facets for [typo3-find extension](https://github.com/subugoe/typo3-find). 
+The working name of this extension is `discovery`.
 
 ## Prerequisites
 
@@ -61,6 +62,32 @@ This partial generated a snippet like this:
 ```
 
 #### ThreeStateSwitch
+
+##### Typescript configuration:
+
+For configuration add these properties below to the section:
+```
+plugin.tx_find.settings.facets.10 {
+       id = OpenAccess
+       headerhidden = 1
+       field = rightsOA
+       type = Threestateswitch
+       displayDefault = 2
+       link = ?tx_find_find[facet][OpenAccess][%s]=1&tx_find_find[controller]=Search
+       toast = Publikationen vom Typ: „%s“
+       query=(rightsOA:%s)
+       values {
+              Open=Open Access
+              All=Open Access,zugriffsbeschränkt
+              Close=zugriffsbeschränkt
+       }
+       labels {
+              Open=Open Access
+              All=Alle Dokumente
+              Close=Restricted Access 
+       }
+}
+```
 
 Content of ``/discovery/Resources/Private/Partials/Facets/Facet/ThreeStateswitch.html`:
 ```
