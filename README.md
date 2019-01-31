@@ -66,4 +66,8 @@ plugin.tx_find.settings.facets.10 {
        }
 }
 ```
+### Pie/Donut
 
+### Wordcloud
+
+### DDC
