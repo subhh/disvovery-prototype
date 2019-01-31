@@ -1,9 +1,8 @@
-# How extends find extension
+# Adding of neew facet type to typo3-find extension of subugö
 
 ## Basic architecture
 
-This extension offers new facets for [typo3-find extension](https://github.com/subugoe/typo3-find). 
-The working name of this extension is `discovery`.
+These extensions offer new facets for [typo3-find extension](https://github.com/subugoe/typo3-find). 
 
 ## Prerequisites
 
@@ -22,7 +21,7 @@ plugin.tx_find {
 
 In original extension a couple of facet rendering pattern are available. For extending and creating new ones new partials will need. In this partials all parameters are realised with HTML5 data HTML entities. This pattern avoids Javascript inside the HTML code. The partials build a "bridge" between Typoscript and Javascript namespace.
 
-### Heatmap
+### hos-t3find-facet-heatmap
 
 ![](https://i.imgur.com/RH0oepr.png)
 
@@ -36,7 +35,7 @@ plugin.tx_find.settings.facets.20 {
    attribution = Map tiles by <a title="Design by Stamen Design" href="https://stamen.com/maps/">Stamen Design</a>, CC BY 3.0
 ```
 
-### ThreeStateSwitch
+### hos-t3find-facet-threestateswitch
 
 ![](https://i.imgur.com/nZOk1ft.png)
 
@@ -66,8 +65,8 @@ plugin.tx_find.settings.facets.10 {
        }
 }
 ```
-### Pie/Donut
+### hos-t3find-facet-pie
 
-### Wordcloud
+### hos-t3find-facet-wordcloud
 
-### DDC
+### hos-t3find-facet-ddc
