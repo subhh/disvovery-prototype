@@ -67,10 +67,11 @@ plugin.tx_find.settings.facets.10 {
 ```
 ### hos-t3find-facet-pie
 
-
+![](https://i.imgur.com/vejQE2M.png)
 
 ### hos-t3find-facet-wordcloud
 
 ![](https://i.imgur.com/g2FVhXE.png)
 
 ### hos-t3find-facet-ddc
+![](https://i.imgur.com/7yyQNYf.png)
