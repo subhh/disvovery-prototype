@@ -39,6 +39,7 @@ If you want avoid access of not local web servers you can use the embedded tile 
 ```
 plugin.tx_find.settings.facets.20.tileProvider = ?eID=tile&url=ORIGINAL_URL
 ```
+You have to encode the url.In the example above `https%3A%2F%2Fstamen-tiles-a.a.ssl.fastly.net%2Ftoner-lite%2F%7Bz%7D%2F%7Bx%7D%2F%7By%7D%402x.png`
 
 ### hos-t3find-facet-threestateswitch
 
