@@ -26,8 +26,18 @@ plugin.tx_find.settings.facets.20 {
    type = Heatmap
    fetchMaximum = 1000
    field = geoLocationPoint 
-   tileProvider = provider=stamen&type=toner-lite&tile={z}/{x}/{y}{r}
+   tileProvider = https://stamen-tiles-c.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}@2x.png
    attribution = Map tiles by <a title="Design by Stamen Design" href="https://stamen.com/maps/">Stamen Design</a>, CC BY 3.0
+```
+#### Other maps types
+
+On [this page](https://leaflet-extras.github.io/leaflet-providers/preview/) you can choose an other map provider.
+
+#### General Data Protection Regulation (EUDSVGO)
+If you want avoid access of not local web servers you can use the embedded tile cache. Additional the class caches the tiles. This avoid to much traffic of native tile provider. Attention: maybe it is a good idea to limit the range.
+
+```
+plugin.tx_find.settings.facets.20.tileProvider = ?eID=tile&url=ORIGINAL_URL
 ```
 
 ### hos-t3find-facet-threestateswitch
