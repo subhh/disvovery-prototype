@@ -25,7 +25,8 @@ In original extension a couple of facet rendering pattern are available. For ext
 ### Heatmap
 
 ![](https://i.imgur.com/RH0oepr.png)
-Example for typoscript:
+
+#### Typoscript:
 ```
 plugin.tx_find.settings.facets.20 {
    type = Heatmap
@@ -36,6 +37,9 @@ plugin.tx_find.settings.facets.20 {
 ```
 
 ### ThreeStateSwitch
+
+![](https://i.imgur.com/nZOk1ft.png)
+
 #### Typescript configuration:
 
 For configuration add these properties below to the section:
