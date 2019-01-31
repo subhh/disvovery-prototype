@@ -7,12 +7,14 @@ These extensions offer new facets for [typo3-find extension](https://github.com/
 ## Common usage
 ### Installing extension
 You can install via extension manager or with composer.
-### Adding static templates
-In web backend you have to add the static template.
+### Adding core static templates
+For all facet view you have to add this static template:
+
+![](https://i.imgur.com/ShSRgs2.png)
 
 ## List of facets
 
-### hos-t3find-facet-heatmap
+### Heatmap
 
 ![](https://i.imgur.com/RH0oepr.png)
 
