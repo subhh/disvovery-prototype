@@ -4,17 +4,9 @@
 
 These extensions offer new facets for [typo3-find extension](https://github.com/subugoe/typo3-find). 
 
-## Prerequisites
+## Common usage
 
-This snippet below extends the search path. Our new path is the first in the search order:
 ```
-plugin.tx_find {
-   view {
-        partialRootPaths {
-            20 = typo3conf/ext/discovery/Resources/Private/Partials/
-        }
-  }
-}
 ```
 
 ## Facets
