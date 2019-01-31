@@ -53,7 +53,7 @@ plugin.tx_find.settings.facets.20.tileProvider = ?eID=tile&url=ORIGINAL_URL
 ```
 You have to encode the url.In the example above `https%3A%2F%2Fstamen-tiles-a.a.ssl.fastly.net%2Ftoner-lite%2F%7Bz%7D%2F%7Bx%7D%2F%7By%7D%402x.png`
 
-### hos-t3find-facet-threestateswitch
+### Switch view
 
 ![](https://i.imgur.com/nZOk1ft.png)
 
@@ -83,13 +83,13 @@ plugin.tx_find.settings.facets.10 {
        }
 }
 ```
-### hos-t3find-facet-pie
+### Pie view
 
 ![](https://i.imgur.com/vejQE2M.png)
 
-### hos-t3find-facet-wordcloud
+### Wordcloud view
 
 ![](https://i.imgur.com/g2FVhXE.png)
 
-### hos-t3find-facet-ddc
+### DDC view
 ![](https://i.imgur.com/7yyQNYf.png)
